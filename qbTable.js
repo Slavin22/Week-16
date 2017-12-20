@@ -7,7 +7,7 @@ function renderTable() {
 		var qb = qbData[x];
 		var fields = Object.keys(qb);
 		var $row = $tbody.insertRow(x);
-		for (var y = 0; y < fields.length; y++) {
+		for (var y = 0; y < 6; y++) {
 			var field = fields[y];
 			var $cell = $row.insertCell(y);
 			$cell.innerHTML = qb[field]
